@@ -2,8 +2,8 @@
     margin-bottom: 20px;
     .title {
         margin-top: 20px;
-        @include sub-header;
         font-weight: bold;
+        @include sub-header;        
     }
     .skill {
         margin-bottom: 20px;
