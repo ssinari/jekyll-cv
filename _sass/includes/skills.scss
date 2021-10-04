@@ -3,8 +3,10 @@
     .title {
         margin-top: 20px;
         @include sub-header;
+        font-weight: bold;
     }
     .skill {
+        margin-bottom: 20px;
         @include body-text;
     }
 }
