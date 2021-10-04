@@ -1,51 +1,62 @@
-name: John Doe
+name: Shripad Sinari
 support_dark_mode: true
 fork: true
 
 # Sidebar
 contact:
-  email: info@johndoe.com
-  github: johndoe
-  linkedin: johndoe
+  email: shripad.sinari@gmail.com
+  github: ssinari
+  linkedin: ssinari
+  scholar: https://scholar.google.com/citations?user=avKGegEAAAAJ&hl=en
   phone: 
   gitlab: 
   twitter: 
 
 languages:
   - idiom: English
-  - idiom: Russian
-  - idiom: French
+  - idiom: Marathi
+  - idiom: Hindi
 
 education:
-  - degree: MSc in Informatics
-    time: 2014-2016
-    university: Ionian University
+  - degree: M.Sc. in Biostatistics
+    university: The University of Arizona
 
-  - degree: BSc in Computer Science
-    time: 2010-2014
-    university: Ionian University
+  - degree: M.Sc. in Mathematics
+    university: The University of Arizona
 
 skills:
-  - category: Backend
+  - category: Data types
     skill: 
-      - Go
-      - Rust
-  - category: Frontend
+      - Longitudinal data
+      - High-throughput omics data
+      - public health and clinical data
+  - category: Statistical techniques
     skill:
-      - React
-      - Typescript
-  - category: DevOps
+      - Generalized Linear Models (GLM)
+      - Mixed-Models
+      - Survival analysis
+      - Statistical Machine Learning
+      - Bayesian data analysis
+      - Compositional data analysis (CoDA)
+  - category: Data analysis software
     skill:
-      - Docker
-      - Kubernetes 
+      - SAS
+      - R and related ecosystem of packages such as Bioconductor and tidyverse
+      - Machine learning software such as Keras, mlverse, TensorFlow
+      - Bayesian computing software OpenBUGS, JAGS, Stan
+      - Data visualization softwares such as ggplot2, shinyapps, flexdashboards
+  - category: Databases
+    skill:
+      - REDCap
+      - MySQL using RODBC interface 
 
 # Profile
 profile: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-  fugiat nulla pariatur.
+  Experienced biostatistician with strong applied statistics and computing background. 
+  Hands on experience in writing statistical analysis plans (SAP), designing experiments 
+  and providing insightful, actionable reports. Effective at communicating complex results 
+  to diverse audiences, and ensuring understanding of requirements at all levels of 
+  a cross functional team for smooth collaboration and timely execution of projects.
 
 # Experience
 experience:
