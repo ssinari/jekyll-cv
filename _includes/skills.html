@@ -3,8 +3,8 @@
 <section class="skills">
     <div class="title">Skills</div>
     {% for sks in skills %}
-       <div class="education-item">
-          <div class="degree">{{sks.category}}</div>
+       <div class="skills-item">
+          <div class="title">{{sks.category}}</div>
           {% for sk in sks.skill%}
               <div class="skill">{{sk}}</div>
           {% endfor %}
