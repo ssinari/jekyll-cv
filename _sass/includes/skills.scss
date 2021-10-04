@@ -1,4 +1,4 @@
-.skills {
+/*.skills {
     margin-bottom: 20px;
     .title {
         margin-top: 20px;
@@ -8,5 +8,21 @@
     .skill {
         margin-bottom: 20px;
         @include body-text;
+    }
+}*/
+.skills {
+    margin-bottom: 20px;
+    .title {
+        @include sub-header;
+    }
+    .skills-item {
+        margin-bottom: 20px;
+        .title {
+            @include body-text;
+            font-weight: bold;
+        }
+        .skill {
+            @include body-text;
+        }
     }
 }
