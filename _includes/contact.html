@@ -10,6 +10,15 @@
             </a>
         </div>
     {% endif %}
+    
+     {% if contact.scholar %}
+        <div class="contact-item">
+            <i "assets/icons/icons8-google-scholar-50.png "></i>
+            <a href="#">
+                {{contact.scholar}}
+            </a>
+        </div>
+    {% endif %}
 
     {% if contact.phone %}
         <div class="contact-item">
