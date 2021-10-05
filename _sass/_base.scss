@@ -24,9 +24,9 @@ body {
         display: grid;
         grid-template-columns: 4fr 6fr;
         grid-column-gap: 10px;
+        overflow-wrap: break-word;
         .sidebar {
             margin-top: 20px;
-            overflow-wrap: break-word;
         }
     }
 }
