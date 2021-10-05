@@ -26,6 +26,7 @@ body {
         grid-column-gap: 10px;
         .sidebar {
             margin-top: 20px;
+            overflow-wrap: break-word;
         }
     }
 }
