@@ -2,17 +2,16 @@
 {% if contact %}
 <section class="contact">
     <div class="title">Contact</div>
-        {% if contact.email %}
         <div class="contact-item">
+          
+        {% if contact.email %}
             <a href="#">
                 <i data-feather="mail"></i>
             </a>
-        </div>
     {% endif %}
     
     {% if contact.scholar %}
-        <div class="contact-item">
-            <a href="https://scholar.google.com/citations?user={{contact.scholar}}=en">
+        <a href="https://scholar.google.com/citations?user={{contact.scholar}}=en">
                 <span style="color: #023b5b;">
                 <i class="ai ai-google-scholar ai-2x"></i>
                 </span>
