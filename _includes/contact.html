@@ -16,50 +16,39 @@
                 <i class="ai ai-google-scholar ai-2x"></i>
                 </span>
             </a>
-        </div>
     {% endif %}
 
     {% if contact.phone %}
-        <div class="contact-item">
-            <i data-feather="phone"></i>
+        <i data-feather="phone"></i>
             <a href="#">
                 {{contact.phone}}
             </a>
-        </div>
     {% endif %}
 
     {% if contact.github %}
-        <div class="contact-item">
-            <a href="https://github.com/{{contact.github}}">
+        <a href="https://github.com/{{contact.github}}">
                 <i data-feather="github"></i>
             </a>
-        </div>
     {% endif %}
 
     {% if contact.linkedin %}
-        <div class="contact-item">
-            <a href="https://linkedin.com/in/{{contact.linkedin}}">
+        <a href="https://linkedin.com/in/{{contact.linkedin}}">
             <i data-feather="linkedin"></i>
             </a>
-        </div>
     {% endif %}
 
     {% if contact.twitter %}
-        <div class="contact-item">
-            <i data-feather="twitter"></i>
+        <i data-feather="twitter"></i>
             <a href="https://twitter.com/{{contact.twitter}}">
                 {{contact.twitter}}
             </a>
-        </div>
     {% endif %}
 
     {% if contact.gitlab %}
-        <div class="contact-item">
-            <i data-feather="gitlab"></i>
+        <i data-feather="gitlab"></i>
             <a href="https://gitlab.com/{{contact.gitlab}}">
                 {{contact.gitlab}}
             </a>
-        </div>
-    {% endif %}
+        {% endif %}
 </section>
 {% endif %}
