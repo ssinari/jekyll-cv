@@ -2,11 +2,19 @@
 {% if contact %}
 <section class="contact">
     <div class="title">Contact</div>
-    {% if contact.email %}
+    #{% if contact.email %}
+    #    <div class="contact-item">
+    #        <i data-feather="mail"></i>
+    #        <a href="#">
+    #            {{contact.email}}
+    #        </a>
+    #    </div>
+    #{% endif %}
+    
+        {% if contact.email %}
         <div class="contact-item">
-            <i data-feather="mail"></i>
             <a href="#">
-                {{contact.email}}
+                <i data-feather="mail"></i>
             </a>
         </div>
     {% endif %}
