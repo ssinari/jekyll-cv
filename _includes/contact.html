@@ -2,14 +2,16 @@
 {% if contact %}
 <section class="contact">
     <div class="title">Contact</div>
-    /*{% if contact.email %}
+    /*
+    {% if contact.email %}
         <div class="contact-item">
             <i data-feather="mail"></i>
             <a href="#">
                 {{contact.email}}
             </a>
         </div>
-    {% endif %}*/
+    {% endif %}
+    */
     
         {% if contact.email %}
         <div class="contact-item">
@@ -19,11 +21,21 @@
         </div>
     {% endif %}
     
+    /*
      {% if contact.scholar %}
         <div class="contact-item">
             <i data-feather="external-link"></i>
             <a href="https://scholar.google.com/citations?user={{contact.scholar}}=en">
                 google scholar
+            </a>
+        </div>
+    {% endif %}
+    */
+
+    {% if contact.scholar %}
+        <div class="contact-item">
+            <a href="https://scholar.google.com/citations?user={{contact.scholar}}=en">
+                <i data-feather="external-link"></i>
             </a>
         </div>
     {% endif %}
@@ -37,19 +49,21 @@
         </div>
     {% endif %}
 
-    /*{% if contact.github %}
+    /*
+    {% if contact.github %}
         <div class="contact-item">
             <i data-feather="github"></i>
             <a href="https://github.com/{{contact.github}}">
                 {{contact.github}}
             </a>
         </div>
-    {% endif %}*/
+    {% endif %}
+    */
+    
     {% if contact.github %}
         <div class="contact-item">
-            <i data-feather="github"></i>
             <a href="https://github.com/{{contact.github}}">
-                {{contact.github}}
+                <i data-feather="github"></i>
             </a>
         </div>
     {% endif %}
