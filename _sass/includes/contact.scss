@@ -11,6 +11,9 @@
             display: inline-block;
             color: var(--fg-color);
             }
+        .fa-envelope:hover {
+            color: red;
+             }
         }
         a {
             text-decoration: none;
@@ -23,6 +26,4 @@
         }
     }
 }
-.fa-envelope:hover {
-    color: red;
-}
+
