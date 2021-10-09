@@ -60,29 +60,21 @@ profile: |
 
 # Experience
 experience:
-  - role: Software Engineer
-    time: 2020-Present
-    company: Google
+  - role: Statistician
+    time: Jan 2013 to present
+    company: BIO5 Institute, The University of Arizona
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
-    technologies_used: | 
-      Go, Angular, Typescript, C++
-  
-  - role: Researcher
-    time: 2016-2020
-    company: Microsoft
+      Provides statistical and computing expertise in basic, applied and clinical research.  
+  - role: Staff Scientist
+    time: Nov 2011 to Jan 2013
+    company: Life Technologies
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
-    technologies_used: | 
-      Python, Tensorflow, Keras, Matlab
+      Provided diagnostic and analytical support for Ion Torrent Technology.
+  - role: Bioinformatician
+    time: Mar 2008 to Nov 2011
+    company: Translational Genomics Research Institute (TGen)
+    details: |
+      Developed analysis workflows and structural variation algorithms.
 
 publications:
   - title: Random title of paper. An interesting one.
