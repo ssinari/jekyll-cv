@@ -23,6 +23,6 @@
 		}
     }
 }
-.contact .contact-item .fab.fa-github.fa-2x:hover {
+.contact .contact-item .fab.fa-github.fa-2x:hover::before {
     color: red;
 }
