@@ -7,7 +7,9 @@
         margin-bottom: 20px;
         .category {
             @include body-text;
-            font-weight: bold;
+           color: var(--fg-color-body);
+           font-size: 14px;
+           font-weight: bold;
         }
         .skill {
             @include body-text;
