@@ -3,7 +3,7 @@
     .title {
         @include sub-header;
     }
-    .skills-item {
+    #{&}.skills-item {
         margin-bottom: 20px;
         #{&}.category {
             @include body-text;
