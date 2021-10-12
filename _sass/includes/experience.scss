@@ -36,9 +36,9 @@
             font-weight: bold;
             .time {
                 @include body-text;
+                font-weight: normal;
                 float: right;
                 color: var(--fg-color-title-sm);
-                font-size: 14px;
             }
         }
         .company {
