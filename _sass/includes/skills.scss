@@ -5,11 +5,11 @@
     }
     .skills-item {
         margin-bottom: 20px;
-        .category {
+        #{&}.category {
             @include body-text;
             font-weight: bold;
         }
-        .skill {
+        #{&}.skill {
             @include body-text;
         }
     }
