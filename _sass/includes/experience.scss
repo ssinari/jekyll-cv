@@ -1,4 +1,4 @@
-.experiance {
+/*.experiance {
     .title {
         @include header;
     }
@@ -19,6 +19,26 @@
             @include body-text;
         }
         .technologies {
+            @include body-text;
+        }
+    }
+}*/
+
+.experiance {
+    margin-bottom: 20px;
+    .title {
+        @include sub-header;
+    }
+    .experience-item {
+        margin-bottom: 20px;
+        .role {
+            @include body-text;
+            font-weight: bold;
+        }
+        .company {
+            @include body-text;
+        }
+        .details {
             @include body-text;
         }
     }
