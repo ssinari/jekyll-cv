@@ -34,6 +34,12 @@
         .role {
             @include body-text;
             font-weight: bold;
+            .time {
+                @include body-text;
+                float: right;
+                color: var(--fg-color-title-sm);
+                font-size: 14px;
+            }
         }
         .company {
             @include body-text;
