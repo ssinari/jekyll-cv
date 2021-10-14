@@ -27,28 +27,28 @@ education:
 skills:
   - category: Data types
     skill: 
-      - Longitudinal data
-      - High-throughput omics data
-      - public health and clinical data
+      #- Longitudinal data
+      #- High-throughput omics data
+      #- public health and clinical data
   - category: Statistical techniques
     skill:
-      - Generalized Linear Models (GLM)
-      - Mixed-Models
-      - Survival analysis
-      - Statistical Machine Learning
-      - Bayesian data analysis
-      - Compositional data analysis (CoDA)
+      #- Generalized Linear Models (GLM)
+      #- Mixed-Models
+      #- Survival analysis
+      #- Statistical Machine Learning
+      #- Bayesian data analysis
+      #- Compositional data analysis (CoDA)
   - category: Data analysis software
     skill:
-      - SAS
-      - R and related ecosystem of packages such as Bioconductor and tidyverse
-      - Machine learning software such as Keras, mlverse, TensorFlow
-      - Bayesian computing software OpenBUGS, JAGS, Stan
-      - Data visualization softwares such as ggplot2, shinyapps, flexdashboards
+      #- SAS
+      #- R and related ecosystem of packages such as Bioconductor and tidyverse
+      #- Machine learning software such as Keras, mlverse, TensorFlow
+      #- Bayesian computing software OpenBUGS, JAGS, Stan
+      #- Data visualization softwares such as ggplot2, shinyapps, flexdashboards
   - category: Databases
     skill:
-      - REDCap
-      - MySQL using RODBC interface 
+      #- REDCap
+      #- MySQL using RODBC interface 
 
 # Profile
 profile: |
