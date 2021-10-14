@@ -4,6 +4,16 @@ layout: default
 <div class="container">
   {% include header.html %}
   <div class="container-block">
+    <div class="career-profile">
+      {% include career-profile.html %}
+    </div>
+
+    <div class="main">
+      {% include publications.html %}
+      {% include projects.html %}
+      {% include volunteering.html %}
+    </div>
+    
     <div class="sidebar">
       <!--{% include contact.html %}
       {% include languages.html %}-->
@@ -11,13 +21,6 @@ layout: default
       {% include skills.html %}
       {% include experience.html %}
       {% include fork.html %}
-    </div>
-
-    <div class="main">
-      {% include career-profile.html %}
-      {% include publications.html %}
-      {% include projects.html %}
-      {% include volunteering.html %}
     </div>
   </div>
 </div>
