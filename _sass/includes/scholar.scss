@@ -1,0 +1,20 @@
+.scholar {
+    margin-bottom: 20px;
+    .title {
+        @include sub-header;
+    }
+    .scholar-item {
+        margin-bottom: 20px;
+        .sl {
+            @include body-text;
+	    float: left;
+            
+        }
+	.sr {
+            @include body-text;
+	    float: right;
+            
+        }
+
+    }
+}

@@ -1,4 +1,6 @@
 .career-profile {
+    grid-column-start: 1;
+    grid-column-end: 4;
     .title {
         @include header;
     }
