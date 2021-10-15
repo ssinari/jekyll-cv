@@ -16,12 +16,14 @@
     {% endif %}
     
     {% if contact.phone %}
+    <a href="tel:+1{{contact.phone}}">
     <span style="color: #00629b; font-size: 0.8rem; margin-left:20px;">
 	<div class="tooltip" >
 	  <i class="fas fa-phone fa-2x"></i>
 	  <span class="tooltiptext"> {{contact.phone}}</span>
 	</div>
-      </span>
+    </span>
+    </a>
     {% endif %}
 
     {% if contact.scholar %}
