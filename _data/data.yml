@@ -10,6 +10,11 @@ scholar:
   i10-index: 21
 
 contact:
+  address:
+    street: 12151 N Meditation Dr
+    city: Marana
+    state: Az
+    pin: 85658
   email: shripad.sinari@gmail.com
   github: ssinari
   linkedin: shripad-sinari

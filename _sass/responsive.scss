@@ -1,4 +1,10 @@
 @media screen and (max-width: 1024px) {
+    .header {
+        display: block;
+        contact {
+            display: none;
+        }
+    }
     body {
         background-color: var(--bg-color-cv);
     }
@@ -28,7 +34,7 @@
         .title {
             margin:0 auto;
         }
-        input, label {
+        input, label, contact {
             display: none;
         }
     }

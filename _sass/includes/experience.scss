@@ -17,6 +17,7 @@
         }
         .company {
             @include body-text;
+	    font-style: italic;
         }
         .details {
             @include body-text;

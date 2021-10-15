@@ -8,6 +8,9 @@
         box-shadow: none;
         background-color: #ffffff;
         width: 1000px;
+	.contact{
+	    display: none;
+	}
         .container-block {
             padding:0;
             
@@ -16,6 +19,9 @@
             input, label {
                 display: none;
             }
+	    contact {
+		display: block;
+	    }
         }
     }
 }

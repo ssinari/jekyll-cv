@@ -18,4 +18,9 @@
         cursor: pointer;
         color: var(--fg-color-dark);        
     }
+    contact { 
+	display: none;
+        float: right;
+	text-align: left;
+    }
 }

@@ -1,7 +1,19 @@
 <div class="header">
-    <h1 class="title">{{site.data.data.name}}</h1>
-    {% if site.data.data.support_dark_mode%}
-      <input type="checkbox" id="switch" name="mode" class="toggle-dark"></input>
-      <label for="switch"><i id="moon" data-feather="moon" fill="var(--fg-color)"></i></label>
-    {%endif%}
-  </div>
+  <h1 class="title">{{site.data.data.name}}</h1>
+  {% if site.data.data.support_dark_mode%}
+  <input type="checkbox" id="switch" name="mode" class="toggle-dark"></input>
+  <label for="switch"><i id="moon" data-feather="moon" fill="var(--fg-color)"></i></label>
+  {%endif%}
+  <contact>
+    {% assign contact = site.data.data.contact %}
+    {% if contact %}
+    <i class="fas fa-phone fa-1x"></i>: {{contact.phone}}</br>
+    <i class="fas fa-envelope fa-1x"></i>: {{contact.email}}</br>
+    <i class="fas fa-map-marker-alt fa-1x"></i>: {{contact.address.street}},
+    {{contact.address.city}},
+    {{contact.address.state}},
+    {{contact.address.pin}}
+    {% endif %}
+  </contact>
+
+</div>
