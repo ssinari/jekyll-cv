@@ -14,7 +14,7 @@ contact:
   github: ssinari
   linkedin: shripad-sinari
   scholar: avKGegEAAAAJ&hl
-  phone: 
+  phone: (520) 245-6292 
   gitlab: 
   twitter: 
 
@@ -68,31 +68,40 @@ profile: |
 experience:
   - role: Statistician
     time: Jan 2013 to present
-    company: BIO5 Institute, The University of Arizona
+    company: BIO5 Institute, The University of Arizona.
     details: |
       Provides statistical and computing expertise in basic, applied and clinical research.  
   - role: Staff Scientist
     time: Nov 2011 to Jan 2013
-    company: Life Technologies
+    company: Life Technologies, Foster City, California.
     details: |
       Provided diagnostic and analytical support for Ion Torrent Technology.
   - role: Bioinformatician
     time: Mar 2008 to Nov 2011
-    company: Translational Genomics Research Institute (TGen)
+    company: Translational Genomics Research Institute (TGen), Phoenix, Arizona.
     details: |
       Developed analysis workflows and structural variation algorithms.
 
-publications:
-  - title: Random title of paper. An interesting one.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference, 2016
+highlights:
+  - contribution: Statistical
+    items:
+      - Decided appropriate statistical strategies on several grants and projects.
+      - Analyzed data with missing or repeated measures, time to event response or relative abundance measures such as RNA-Seq and microbiome datasets.
+      - Ensured data provenance with good data hygiene.
+      - Used Bayesian, empirical Bayes, and frequentist techniques as appropriate.
+      - Managed client expectations with timely delivery of complex analyses, meeting pre and post funding deliverables, resulting in highly cited publications.
+      - Successfully completed support as primary statistician on multi- center, multi-year complex grants and projects (Program Projects and R01).
 
-  - title: Second title of paper. An interesting one too.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference again, 2018
-
+  - contribution: Computing
+    items:
+     - Operationalized statistical strategies with efficient computing.
+     - Performed quality control, data cleaning and data engineering.
+     - Designed, developed, and implemented appropriate computing infrastructure required for study monitoring and analyses.
+     - Developed reusable and modular software components such as R packages, analytic workflows, and data visualizations such as shiny apps and dashboards.
+     - Implemented best computing practices using knitr, R Notebooks, version control like Git and containers like Docker.
+  - contribution: Team 
+    items: |
+      Exchanged ideas with colleagues to learn and implement emerging analytical and computational techniques. Mentored other team members and student collaborators as required.
 projects:
   - title: Cool Project 
     link: #

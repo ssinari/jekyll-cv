@@ -1,0 +1,19 @@
+.highlights {
+    .title {
+        @include header;
+    }
+    .highlights-item {
+        .contribution {
+	    margin-bottom: 5px;
+	    @include body-text;
+            font-weight: bold;
+        }
+        .item {
+	    margin: 0;
+	    padding-left: 10px;
+            @include body-text;
+	    font-weight: normal;
+        }
+    }
+}
+

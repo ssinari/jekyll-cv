@@ -3,9 +3,8 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: right;
+    align-items: center;
     .title {
-        flex: 2;
         color: var(--fg-color-dark);
         font-weight: bolder;
         text-transform: uppercase;
@@ -17,7 +16,6 @@
     }
     label {
         cursor: pointer;
-        color: var(--fg-color-dark);
-        
+        color: var(--fg-color-dark);        
     }
 }

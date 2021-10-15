@@ -3,11 +3,11 @@
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
-    margin-top:20px;
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     &:before, &:after{
-        content: "";
+        //content: "";
         flex: 1 1;
         border-bottom: 1px solid;
         margin: auto;
@@ -24,7 +24,7 @@
     font-size: 16px;
     font-weight: 700; 
     color: var(--fg-color);
-    text-transform: uppercase;
+    //text-transform: uppercase;
 }
 
 @mixin body-text {

@@ -1,60 +1,74 @@
 {% assign contact = site.data.data.contact %}
 {% if contact %}
 <section class="contact">
-    <div class="title">Contact</div>
-        <div class="contact-item">
-          
-        {% if contact.email %}
-            <a href="mailto:shripad.sinari@gmail.com">
-                <span style="color: #00629b;">
-                <i class="fal fa-envelope fa-2x"></i>
-                </span>
-            </a>
+  <!-- <div class="title">Contact</div> -->
+  <div class="contact-item">
+    
+    {% if contact.email %}
+    <a href="mailto:{{contact.email}}">
+      <div class="tooltip" >
+      <span style="color: #00629b;">
+        <i class="fal fa-envelope fa-2x"></i>
+      </span>
+      <span class="tooltipmail"> {{contact.email}}</span>
+      </div>
+    </a>
     {% endif %}
     
-    {% if contact.scholar %}
-        <a href="https://scholar.google.com/citations?user={{contact.scholar}}=en">
-                <span style="color: #00629b;">
-                <i class="ai ai-google-scholar ai-2x"></i>
-                </span>
-            </a>
+    {% if contact.phone %}
+    <span style="color: #00629b; font-size: 0.8rem; margin-left:20px;">
+	<div class="tooltip" >
+	  <i class="fas fa-phone fa-2x"></i>
+	  <span class="tooltiptext"> {{contact.phone}}</span>
+	</div>
+      </span>
     {% endif %}
 
-    {% if contact.phone %}
-        <i data-feather="phone"></i>
-            <a href="#">
-                {{contact.phone}}
-            </a>
+    {% if contact.scholar %}
+    <a href="https://scholar.google.com/citations?user={{contact.scholar}}=en">
+      <div class="tooltip">
+      <span style="color: #00629b; ; margin-left:20px;">
+        <i class="ai ai-google-scholar ai-2x"></i>
+      </span>
+      <span class="tooltiptext">Publications</span>
+      </div>
+    </a>
     {% endif %}
 
     {% if contact.github %}
-          <a href="https://github.com/{{contact.github}}">
-             <span style="color: #00629b;">
-                <i class="fab fa-github fa-2x"></i>
-             </span>
-           </a>
+    <a href="https://github.com/{{contact.github}}">
+      <div class="tooltip">
+      <span style="color: #00629b; ; margin-left:20px;">
+        <i class="fab fa-github fa-2x"></i>
+      </span>
+      <span class="tooltiptext">Github</span>
+      </div>
+    </a>
     {% endif %}
 
     {% if contact.linkedin %}
-             <a href="https://linkedin.com/in/{{contact.linkedin}}">
-               <span style="color: #00629b;">             
-                 <i class="fab fa-linkedin-in fa-2x"></i>
-               </span>
-              </a>
+    <a href="https://linkedin.com/in/{{contact.linkedin}}">
+      <div class="tooltip">
+      <span style="color: #00629b; ; margin-left:20px;">             
+        <i class="fab fa-linkedin-in fa-2x"></i>
+      </span>
+      <span class="tooltiptext">LinkedIn Profile</span>
+      </div>
+    </a>
     {% endif %}
 
     {% if contact.twitter %}
-        <i data-feather="twitter"></i>
-            <a href="https://twitter.com/{{contact.twitter}}">
-                {{contact.twitter}}
-            </a>
+    <i data-feather="twitter"></i>
+    <a href="https://twitter.com/{{contact.twitter}}">
+      {{contact.twitter}}
+    </a>
     {% endif %}
 
     {% if contact.gitlab %}
-        <i data-feather="gitlab"></i>
-            <a href="https://gitlab.com/{{contact.gitlab}}">
-                {{contact.gitlab}}
-            </a>
-        {% endif %}
+    <i data-feather="gitlab"></i>
+    <a href="https://gitlab.com/{{contact.gitlab}}">
+      {{contact.gitlab}}
+    </a>
+    {% endif %}
 </section>
 {% endif %}

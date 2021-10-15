@@ -1,33 +1,7 @@
-/*.experiance {
-    .title {
-        @include header;
-    }
-    .experience-item {
-        .role {
-            @include sub-header;
-            .time {
-                @include body-text;
-                float: right;
-                color: var(--fg-color-title-sm);
-            }
-        }
-        .company {
-            @include body-text;
-            font-weight: bold;
-        }
-        .details {
-            @include body-text;
-        }
-        .technologies {
-            @include body-text;
-        }
-    }
-}*/
-
-.experiance {
+.experience {
     margin-bottom: 20px;
     .title {
-        @include sub-header;
+        @include header;
     }
     .experience-item {
         margin-bottom: 20px;

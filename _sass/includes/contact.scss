@@ -1,28 +1,96 @@
 .contact {
-	margin-bottom: 20px;
-	    .title {
-		@include sub-header;
-	    }
-	    .contact-item {
-		display: flex;
-		align-items: center;
-		svg {
-		    width: 18px;
-		    display: inline-block;
-		    color: var(--fg-color);
-		}
-		
-        }
+    .title {
+	@include header;
+        
+    }
+    .contact-item {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin-left: 45px;
+	svg {
+	    width: 18px;
+	    display: inline-block;
+	    color: var(--fg-color);
+	}
+	
+    }
     a {
         text-decoration: none;
         padding-top: 4px;
         padding-left: 4px;
         @include body-text;
-		&:hover {
-                text-decoration: underline;
-		}
+	&:hover {
+            text-decoration: underline;
+	}
     }
 }
+
 .contact .contact-item .fab.fa-github.fa-2x:hover::before {
     color: red;
 }
+
+.contact .contact-item .fab.fa-linkedin-in.fa-2x:hover::before {
+    color: red;
+}
+
+.contact .contact-item .fal.fa-envelope.fa-2x:hover::before {
+    color: red;
+}
+
+.contact .contact-item .fas.fa-phone.fa-2x:hover::before {
+    color: red;
+}
+
+.contact .contact-item .ai.ai-google-scholar.ai-2x:hover::before {
+    color: red;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    //border-bottom: 1px dotted black;
+    .tooltiptext {
+	visibility: hidden;
+	width: 120px;
+	background-color: #00629b;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -60px;
+    }
+    .tooltipmail{
+	visibility: hidden;
+	width: 175px;
+	background-color: #00629b;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -60px;
+    }
+    &:hover {
+	.tooltiptext{
+	    visibility: visible;
+	}
+	.tooltipmail{
+	    visibility: visible;
+	}
+    }
+
+}
+

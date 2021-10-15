@@ -1,0 +1,17 @@
+{% assign highlights = site.data.data.highlights %}
+{% if highlights %}
+<section class="highlights">
+  <div class="title">Career Highlights</div>
+  {% for cts in highlights%}
+  <div class="highlights-item">
+    <div class="contribution">{{cts.contribution}} Contributions
+      <ul class="item">
+	{% for it in cts.items %}
+	<li> {{it}}  </li>
+	{% endfor %}
+      </ul>
+    </div>
+  </div>
+  {% endfor %}
+</section>
+{% endif %}
