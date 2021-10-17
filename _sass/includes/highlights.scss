@@ -1,10 +1,11 @@
 .highlights {
     .title {
         @include header;
+	margin-bottom: 20px;
     }
     .highlights-item {
         .contribution {
-	    margin-bottom: 5px;
+            margin-bottom: 5px;
 	    @include body-text;
             font-weight: bold;
         }
