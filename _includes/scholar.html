@@ -3,10 +3,28 @@
 <section class="scholar">
     <div class="title">Scholarly Profile</div>
     <div class="scholar-item">
-      <div class="sl"><b>papers:</b> {{scholar.papers}}</div>
-      <div class="sr"><b>citations:</b> {{scholar.citations}}</div></br>
-      <div class="sl"><b>h-index:</b> {{scholar.h-index}}</div>
-      <div class="sr"><b>i10-index:</b> {{scholar.i10-index}}</div>
+      <papers>
+	<div class = "sl">
+	  <div class="sl name">Papers:</div>
+	  {{scholar.papers}}
+	</div>
+      </papers>
+      <citations>
+	<div class = "sr">
+	  <div class="sr name">Citations: </div>
+	  {{scholar.citations}}
+	</div>
+      </citations>
+      <hindex><div class = "sl">
+	  <div class="sl name">h-index:</div>
+	  {{scholar.h-index}}
+	</div>
+      </hindex>
+      <iindex><div class = "sr">
+	  <div class="sr name">i10-index:</div>
+	  {{scholar.i10-index}}
+	  </div>
+      </iindex>
     </div>
 </section>
 {% endif %}
