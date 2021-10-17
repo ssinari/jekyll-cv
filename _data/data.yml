@@ -52,9 +52,9 @@ skills:
   - category: Data analysis software
     skill: |
       SAS,
-      R and related ecosystem of packages such as Bioconductor and tidyverse,
-      Machine learning software such as Keras, mlverse, TensorFlow,
-      Bayesian computing software OpenBUGS, JAGS, Stan,
+      R and related ecosystem of packages such as Bioconductor and tidyverse.
+      Machine learning software such as Keras, mlverse, TensorFlow.
+      Bayesian computing software OpenBUGS, JAGS, Stan.
       Data visualization softwares such as ggplot2, shinyapps, flexdashboards.
   - category: Databases
     skill: |
