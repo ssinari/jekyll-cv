@@ -4,7 +4,7 @@ fork: false
 
 # Sidebar
 scholar:
-  papers: 48
+  papers: 31
   citations: 17423
   h-index: 18
   i10-index: 21
